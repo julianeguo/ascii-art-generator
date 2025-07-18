@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 2rem;
+  background-color: #0e1523
+}
+
+@layer base {
+  h1 {
+    text-align: center;
+    margin-top: 0;
+    color: antiquewhite;
+    font-family: "Source Code Pro", monospace;
+    padding-top: 2rem;
+    font-size:48px;
+    font-weight:500;
+  }
+
+  span {
+    text-align: center;
+    margin-top: 0;
+    color: antiquewhite;
+    font-family: "Source Code Pro", monospace;
+    padding: 2rem;
+  }
+
+  pre {
+    text-align: center;
+    color: antiquewhite;
+    font-family: "Source Code Pro", monospace;
+    padding: 2rem;
+    font-size:5px;
+  }
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+  color: antiquewhite;
+  font-family: "Source Code Pro", monospace;
+}
+
+.custom-btn {
+  background-color: antiquewhite;
+  color: #0e1523;
+  font-family: "Source Code Pro", monospace;
+  padding: 0.5rem 1.25rem;
+}
+
+.custom-btn:hover,
+.custom-btn:focus {
+  background-color: #218838;
+  border-color: #1e7e34;
+  color: antiquewhite;
+}
