@@ -2,9 +2,11 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite';
 
+const repoName = 'ascii-art-generator';
+
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/ascii-art-generator/',
+  base: `/${repoName}/`, 
   plugins: [
     react(),
     tailwindcss(),
