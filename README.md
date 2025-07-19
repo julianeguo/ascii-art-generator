@@ -31,33 +31,33 @@ Made with 💻 by [Juliane Guo](https://github.com/julianeguo)
 ## 🚀 Running Locally
 
 ### 1. Clone the Repository
-git clone https://github.com/julianeguo/ascii-art-generator.git
-cd ascii-art-generator
+- git clone https://github.com/julianeguo/ascii-art-generator.git
+- cd ascii-art-generator
 
 ### 2. Start Backend
-cd back-end
-pip install -r requirements.txt
-python server.py
+- cd back-end
+- pip install -r requirements.txt
+- python server.py
 
 ### 3. Start Frontend
-cd front-end-react
-npm install
-npm run dev
-Then visit http://localhost:5173
+- cd front-end-react
+- npm install
+- npm run dev
+- Then visit http://localhost:5173
 
 ## 🧪 Deployment Info
 
 ### Frontend deployed with GitHub Pages
-Ensure vite.config.js has the correct base: '/ascii-art-generator/'
-Deployed from front-end-react directory
+- Ensure vite.config.js has the correct base: '/ascii-art-generator/'
+- Deployed from front-end-react directory
 ### Backend deployed on Render
-Host set to 0.0.0.0, port 5000
-flask-cors handles CORS between frontend/backend
-Add all dependencies in requirements.txt
+- Host set to 0.0.0.0, port 5000
+- flask-cors handles CORS between frontend/backend
+- Add all dependencies in requirements.txt
 
 ## ⚠️ Known Issues
 
 ### If ASCII output isn’t loading:
-Try Incognito Mode (browsers may cache localhost)
-Confirm backend is live on Render
-Render free tier may take time to wake up on first access
+- Try Incognito Mode (browsers may cache localhost)
+- Confirm backend is live on Render
+- Render free tier may take time to wake up on first access
