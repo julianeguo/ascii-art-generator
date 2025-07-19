@@ -38,8 +38,8 @@ function WebcamProcess() {
         formData.append("image", dataURLtoBlob(imageSrc));
 
         try {
-            // 1.
-            const res = await fetch("http://127.0.0.1:5000/api/convert", {
+            // 1. const res = await fetch("http://127.0.0.1:5000/api/convert"
+            const res = await fetch("https://ascii-art-generator-jscc.onrender.com/api/convert", {
                 method: "POST",
                 body: formData,
               });
@@ -79,7 +79,7 @@ function WebcamProcess() {
             <pre>
                     {asciiFrame || ""}
             </pre>
-            
+
             <div className="flex justify-center items-center">
                 <Webcam
                 audio={false}

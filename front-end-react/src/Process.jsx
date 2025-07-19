@@ -25,7 +25,7 @@ function Process() {
 
         try {
             // 1.
-            const res = await fetch("http://127.0.0.1:5000/api/convert", {
+            const res = await fetch("https://ascii-art-generator-jscc.onrender.com/api/convert", {
                 method: "POST",
                 body: formData,
               });
