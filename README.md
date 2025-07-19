@@ -1,7 +1,7 @@
 # 🎨 ASCII Art Generator
 
 Turn images and live webcam feeds into ASCII art :-D
-Made with 💻 by Juliane Guo(https://github.com/julianeguo)
+Made with 💻 by [Juliane Guo](https://github.com/julianeguo)
 
 🔗 **Live App**: [ascii-art-generator](https://julianeguo.github.io/ascii-art-generator/#/)  
 💻 Built with React + Flask + OpenCV
